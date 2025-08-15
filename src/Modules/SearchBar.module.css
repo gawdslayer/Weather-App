@@ -1,0 +1,88 @@
+.container {
+  margin-bottom: 1.5rem;
+  position: relative;
+  z-index: 1;
+}
+
+.form {
+  display: flex;
+  gap: 0.75rem;
+  background: rgba(255, 255, 255, 0.2);
+  border-radius: 16px;
+  padding: 0.5rem;
+  backdrop-filter: blur(10px);
+  border: 1px solid rgba(255, 255, 255, 0.4);
+}
+
+.input {
+  flex: 1;
+  padding: 0.75rem 1rem;
+  border: none;
+  border-radius: 12px;
+  outline: none;
+  transition: all 0.2s;
+  background: rgba(255, 255, 255, 0.9);
+  color: #1f2937;
+  font-size: 0.875rem;
+}
+
+.input::placeholder {
+  color: #6b7280;
+}
+
+.input:focus {
+  background: white;
+  box-shadow: 0 0 0 2px rgba(255, 255, 255, 0.5);
+}
+
+.input:disabled {
+  background-color: rgba(255, 255, 255, 0.5);
+  cursor: not-allowed;
+  color: #9ca3af;
+}
+
+.button {
+  padding: 0.75rem 1.5rem;
+  background: rgba(255, 255, 255, 0.3);
+  color: #1a365d;
+  border-radius: 12px;
+  border: 1px solid rgba(255, 255, 255, 0.5);
+  outline: none;
+  transition: all 0.2s;
+  cursor: pointer;
+  font-weight: 600;
+  font-size: 0.875rem;
+  backdrop-filter: blur(10px);
+}
+
+.button:hover {
+  background: rgba(255, 255, 255, 0.4);
+  transform: translateY(-1px);
+}
+
+.button:focus {
+  box-shadow: 0 0 0 2px rgba(255, 255, 255, 0.5);
+}
+
+.button:disabled {
+  background-color: rgba(255, 255, 255, 0.1);
+  cursor: not-allowed;
+  opacity: 0.6;
+}
+
+.button:disabled:hover {
+  background-color: rgba(255, 255, 255, 0.1);
+  transform: none;
+}
+
+.currentLocation {
+  font-size: 0.875rem;
+  color: #1a365d;
+  margin-top: 0.75rem;
+  text-align: center;
+}
+
+.currentLocationText {
+  font-weight: 600;
+  color: #1a365d;
+} 
