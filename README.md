@@ -147,7 +147,7 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 ## 📞 Contact
 
-**Gurpreet S Kullar** - [GitHub](https://github.com/gawdslayer)
+[GitHub](https://github.com/gawdslayer)
 
 Project Link: [https://github.com/gawdslayer/Weather-App](https://github.com/gawdslayer/Weather-App)
 
